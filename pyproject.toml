@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mbpluginloader"
+version = "2.1"
+authors = [
+  { name = "Ndgt" },
+]
+description = "Custom MotionBuilder Module to load C++ plugins from Python Project on Startup"
+readme = "README.md"
+requires-python = ">=2.7"
+license = "BSD-3-Clause"
+license-files = ["LICENSE"]
+classifiers = [
+    "Operating System :: Microsoft :: Windows",
+    "Intended Audience :: Developers"
+]
+
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mbpluginloader = [
+    "pyd/**/*",
+]

@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+build/
+dist/
+*.egg-info/
+.pypirc
+
+# build
+src/build/
+src/mbpluginloader/pyd/
+
+# Samples
+*.dll
+
+# Editor specific
+.vscode/
