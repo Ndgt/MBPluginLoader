@@ -31,7 +31,7 @@ This method is mainly intended for developers who want to bundle mbpluginloader 
 
 2. Download the source code `.zip` file for the latest release.
 
-3. Extract the archive. You will find a `src/mbpluginloader` directory inside.
+3. Extract the archive. You will find a `mbpluginloader` directory inside.
 
 4. Copy the `mbpluginloader` directory into your own project's source tree.
 
