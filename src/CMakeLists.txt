@@ -43,7 +43,7 @@ endif()
 
 # === Project Setup ===
 project(mbpluginload)
-add_library(${PROJECT_NAME} SHARED MBPluginLoader.cpp)
+add_library(${PROJECT_NAME} SHARED MBPluginLoad.cpp)
 set_target_properties(${PROJECT_NAME} PROPERTIES SUFFIX ".pyd")
 
 # === Include Paths ===
